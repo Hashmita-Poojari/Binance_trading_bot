@@ -1,0 +1,18 @@
+from binance.client import Client
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+api_key = os.getenv("API_KEY")
+api_secret = os.getenv("API_SECRET")
+
+client = Client(api_key, api_secret, testnet=True)
+
+try:
+    client.futures_account()
+    print("Connected to Binance Futures Testnet")
+
+except Exception as error:
+    print("Connection failed")
+    print(error)
