@@ -64,4 +64,11 @@ Logs are stored inside:
 
 logs/trading_bot.log
 
+## Output Screenshots
+
+### Market Order
+
+![Market Order](screenshots.png)
+
+
 Developed By Hashmita Poojari
