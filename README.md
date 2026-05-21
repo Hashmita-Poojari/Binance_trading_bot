@@ -63,3 +63,5 @@ python bot/cli.py --symbol BTCUSDT --side BUY --type LIMIT --quantity 0.001 --pr
 Logs are stored inside:
 
 logs/trading_bot.log
+
+Developed By Hashmita Poojari
